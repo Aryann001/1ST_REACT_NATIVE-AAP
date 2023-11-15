@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "frontend",
+    "name": "TodoApp",
     "slug": "frontend",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,9 +15,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.aryan.todoapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.aryan.todoapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fdf80a0a-d510-4451-a6a5-294d3c53a898"
+      }
     }
   }
 }
